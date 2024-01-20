@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
-@font-face{
-    font-family: 'TankTrouble';
-    src:url('../media/fonts/TankTrouble.eot');
-    src:url('../media/fonts/TankTrouble.eot?#iefix') format('embedded-opentype'),
-    url('../media/fonts/TankTrouble.woff2') format('woff2'),
-    url('../media/fonts/TankTrouble.woff') format('woff'),
-    url('../media/fonts/TankTrouble.ttf')  format('truetype'),
-    url('../media/fonts/TankTrouble.svg') format('svg');;
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+@font-face {
+  font-family: "TankTrouble";
+  src: url("../media/fonts/TankTrouble.eot");
+  src: url("../media/fonts/TankTrouble.eot?#iefix") format("embedded-opentype"),
+    url("../media/fonts/TankTrouble.woff2") format("woff2"),
+    url("../media/fonts/TankTrouble.woff") format("woff"),
+    url("../media/fonts/TankTrouble.ttf") format("truetype"),
+    url("../media/fonts/TankTrouble.svg") format("svg");
 }
 
-html  {
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
 }
 
 /* 
@@ -20,624 +21,672 @@ purple: #6e25a4
 */
 
 :root {
-    --yellow: #F1C439; 
-    --purple: #6e25a4;
-    --first-bg: #F1C439;
-    --first-title: #6e25a4;
-    --first-text: black;
-    --second-bg: #6e25a4;
-    --second-title: #F1C439;
-    --second-text: white;
-    --elite-first: #1e1f24;
-    --elite-second: #111216;
+  --yellow: #f1c439;
+  --purple: #6e25a4;
+  --first-bg: #f1c439;
+  --first-title: #6e25a4;
+  --first-text: black;
+  --second-bg: #6e25a4;
+  --second-title: #f1c439;
+  --second-text: white;
+  --elite-first: #1e1f24;
+  --elite-second: #111216;
 }
 
-.divpad img { 
-    filter:drop-shadow(2px 2px 6px #0000008a);
+.divpad img {
+  filter: drop-shadow(2px 2px 6px #0000008a);
 }
 
-.pback,.yback,.blackback {
-    box-shadow:0px 0px 40px #0000008a;
+.pback,
+.yback,
+.blackback {
+  box-shadow: 0px 0px 40px #0000008a;
 }
 
 /* Alignments */
 .left {
-    text-align: left;
+  text-align: left;
 }
 
 .right {
-    text-align: right;
+  text-align: right;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .justify {
-    text-align: justify;
-    text-justify: inter-word;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .indent {
-    text-indent: 50px;
+  text-indent: 50px;
 }
 
 /* backgrounds */
 .yback {
-    background-color: var(--first-bg);
+  background-color: var(--first-bg);
 }
 
-.yback h1, .eliteback h1 {
-    color: var(--first-title);
+.yback h1,
+.eliteback h1 {
+  color: var(--first-title);
 }
 
-.yback h2, .eliteback h2 {
-    color: var(--first-title);
+.yback h2,
+.eliteback h2 {
+  color: var(--first-title);
 }
 
 .yback p {
-    color: var(--first-text);
+  color: var(--first-text);
 }
 
 .yback li {
-    color: var(--first-text);
+  color: var(--first-text);
 }
 
-.yback a, .eliteback a {
-    color: var(--first-title);
+.yback a,
+.eliteback a {
+  color: var(--first-title);
 }
 
-.yback a:visited, .eliteback a:visited {
-    color: var(--first-title);
+.yback a:visited,
+.eliteback a:visited {
+  color: var(--first-title);
 }
 
-.yback a:hover, .eliteback a:hover {
-    color: var(--first-title);
+.yback a:hover,
+.eliteback a:hover {
+  color: var(--first-title);
 }
 
 .pback {
-    background-color: var(--second-bg);
+  background-color: var(--second-bg);
 }
 
 .pback h1 {
-    color: var(--second-title);
+  color: var(--second-title);
 }
 
 .pback h2 {
-    color: var(--second-title);
+  color: var(--second-title);
 }
 
 .pback p {
-    color: var(--second-text);
+  color: var(--second-text);
 }
 
 .pback li {
-    color: var(--second-text);
+  color: var(--second-text);
 }
 
 .pback a {
-    color: var(--second-title);
+  color: var(--second-title);
 }
 
 .pback a:visited {
-    color: var(--second-title);
+  color: var(--second-title);
 }
 
 .pback a:hover {
-    color: var(--second-title);
+  color: var(--second-title);
 }
 
 .whiteback {
-    background-color: white;
+  background-color: white;
 }
 
 .whiteback h1 {
-    color: var(--purple);
+  color: var(--purple);
 }
 
 .whiteback h2 {
-    color: var(--purple);
+  color: var(--purple);
 }
 
 .whiteback p {
-    color: black;
+  color: black;
 }
 
 .whiteback li {
-    color: black;
+  color: black;
 }
 
 .whiteback a {
-    color: var(--purple);
+  color: var(--purple);
 }
 
 .whiteback a:visited {
-    color: var(--purple);
+  color: var(--purple);
 }
 
 .whiteback a:hover {
-    color: var(--yellow);
+  color: var(--yellow);
 }
 
 .blackback {
-    background-color: black;
+  background-color: black;
 }
 
 .blackback h1 {
-    color: var(--yellow);
+  color: var(--yellow);
 }
 
 .blackback h2 {
-    color: var(--yellow);
+  color: var(--yellow);
 }
 
 .blackback p {
-    color: white;
+  color: white;
 }
 
 .blackbacl li {
-    color: white;
+  color: white;
 }
 
 .blackback a {
-    color: var(--yellow);
+  color: var(--yellow);
 }
 
 .blackback a:visited {
-    color: var(--yellow)
+  color: var(--yellow);
 }
 
 .blackback a:hover {
-    color: var(--purple);
+  color: var(--purple);
 }
 
 .eliteback {
-    background-color: var(--elite-first);
+  background-color: var(--elite-first);
 }
 
 .eliteback p {
-    color: var(--second-text);
+  color: var(--second-text);
 }
 
 .eliteback li {
-    color: var(--second-text);
+  color: var(--second-text);
 }
 
 .eliteback_two {
-    background-color: var(--elite-second);
+  background-color: var(--elite-second);
 }
 
 .eliteback_two h1 {
-    color: var(--second-title);
+  color: var(--second-title);
 }
 
 .eliteback_two h2 {
-    color: var(--second-title);
+  color: var(--second-title);
 }
 
 .eliteback_two p {
-    color: var(--second-text);
+  color: var(--second-text);
 }
 
 .eliteback_two li {
-    color: var(--second-text);
+  color: var(--second-text);
 }
 
 .eliteback_two a {
-    color: var(--second-title);
+  color: var(--second-title);
 }
 
 .eliteback_two a:visited {
-    color: var(--second-title);
+  color: var(--second-title);
 }
 
 .eliteback_two a:hover {
-    color: var(--first-title);
+  color: var(--first-title);
 }
-
 
 /* Padding and margins */
 .textdivmargin {
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: auto;
-    margin-bottom: auto;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .textpad {
-    padding: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
 }
 
 .nopad {
-    padding: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .padded {
-    padding: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
+}
+
+/* Icons */
+.iconLarge {
+  font-size: 64px;
+}
+
+.iconMedium {
+  font-size: 48px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.grab {
+  cursor: grab;
 }
 
 /* Tag items */
 img {
-    max-width: 100%;
-    vertical-align: middle;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 .imgfull {
-    width: 100%;
+  width: 100%;
+}
+
+.img75 {
+  width: 75%;
+}
+
+.img50 {
+  width: 50%;
 }
 
 nav {
-    background: black;
+  background: black;
 }
 
 div {
-    display: block;
-    overflow: hidden;
-    padding: none;
+  display: block;
+  overflow: hidden;
+  padding: none;
 }
 
 a {
-    font-family: 'TankTrouble', sans-serif;
-    text-decoration: none;
-    font-size: 16px;
-    transition: color .15s ease-in-out;
+  font-family: "TankTrouble", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.15s ease-in-out;
 }
 
 a:hover {
-    text-decoration: none;
-    font-size: 16px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 a:visited:hover {
-    text-decoration: none;
-    font-size: 16px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 p {
-    display: block;
-    font-family: 'Lexend Deca', sans-serif !important;
-    text-decoration: none;
-    font-size: 16px;
+  display: block;
+  font-family: "Lexend Deca", sans-serif !important;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 li {
-    font-family: 'Lexend Deca', sans-serif;
-    text-decoration: none;
-    font-size: 16px;
+  font-family: "Lexend Deca", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 h1 {
-    font-family: 'TankTrouble', sans-serif;
-    font-size: 36px;
+  font-family: "TankTrouble", sans-serif;
+  font-size: 36px;
 }
 
 h2 {
-    font-family: 'TankTrouble', sans-serif;
-    font-size: 20px;
+  font-family: "TankTrouble", sans-serif;
+  font-size: 20px;
 }
 
 .ttfont {
-    font-family: 'TankTrouble', sans-serif !important;
+  font-family: "TankTrouble", sans-serif !important;
 }
 
 /* Navigation Bar */
 .nonstick {
-    text-align: center;
-    object-fit: contain;
-    width: 100%;
+  text-align: center;
+  object-fit: contain;
+  width: 100%;
 }
 
 .logo {
-    width: 100%;
+  width: 100%;
 }
 
 .navbar-brand {
-    float: left;
-    height: 50px;
-    padding: 5px 0px 5px 0px;
-    line-height: 1px;
+  float: left;
+  height: 50px;
+  padding: 5px 0px 5px 0px;
+  line-height: 1px;
 }
 
 .nav-link {
-    vertical-align: 50%;
-    padding: 10px 10px 10px 10px;
+  vertical-align: 50%;
+  padding: 10px 10px 10px 10px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: var(--first-bg);
+  color: var(--first-bg);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: var(--second-bg);
+  color: var(--second-bg);
 }
 
 .rbtn {
-    background-color: var(--first-bg) ;
-    color: #000 !important;
-    border: 2px solid #000;
+  background-color: var(--first-bg);
+  color: #000 !important;
+  border: 2px solid #000;
 }
 
 .rbtn:hover {
-    background-color: var(--second-bg);
-    color: #fff !important;
-    border: 2px solid #fff;
+  background-color: var(--second-bg);
+  color: #fff !important;
+  border: 2px solid #fff;
 }
-
 
 /* Content */
 .main {
-    margin: 0px 0px 0px 0px;
-    word-wrap: break-word;
+  margin: 0px 0px 0px 0px;
+  word-wrap: break-word;
 }
 
 .row {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0px 0px 0px 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .divpad {
-    padding-top: 25px;
-    padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .toppad {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 
 .botpad {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 hr {
-    background-color: black;
-    width: 120%;
-    height: 12px;
-    border-top: 1px solid black;
-    margin: 0px 0px 0px 0px;
+  background-color: black;
+  width: 120%;
+  height: 12px;
+  border-top: 1px solid black;
+  margin: 0px 0px 0px 0px;
 }
 
 .fill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .fill img {
-    object-fit: cover;
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 /* Footer items */
 .foot {
-    line-height: 1.5;
-    border-top: 15px solid black;
-    word-wrap: break-word;
+  line-height: 1.5;
+  border-top: 15px solid black;
+  word-wrap: break-word;
 }
 
 .fbtn {
-    background-color: var(--second-bg);
-    color: #fff !important;
-    border: 2px solid #fff;
+  background-color: var(--second-bg);
+  color: #fff !important;
+  border: 2px solid #fff;
 }
 
 .fbtn:hover {
-    background-color: var(--first-bg) ;
-    color: #000 !important;
-    border: 2px solid #000;
+  background-color: var(--first-bg);
+  color: #000 !important;
+  border: 2px solid #000;
+}
+
+/* Select input */
+.pback .select {
+  background-color: var(--first-bg);
+  color: #000 !important;
+  border: 2px solid #000;
+  height: 64px;
 }
 
 /* Buttons */
 .yback .btn {
-    background-color: var(--second-bg);
-    color: #fff !important;
-    border: 2px solid #fff;
+  background-color: var(--second-bg);
+  color: #fff !important;
+  border: 2px solid #fff;
 }
 
 .yback .btn:hover {
-    background-color: var(--first-bg) ;
-    color: #000!important;
-    border: 2px solid #000;
+  background-color: var(--first-bg);
+  color: #000 !important;
+  border: 2px solid #000;
 }
 
 .pback .btn {
-    background-color: var(--first-bg) ;
-    color: #000 !important;
-    border: 2px solid #000;
+  background-color: var(--first-bg);
+  color: #000 !important;
+  border: 2px solid #000;
 }
 
 .pback .btn:hover {
-    background-color: var(--second-bg);
-    color: #fff !important;
-    border: 2px solid #fff;
+  background-color: var(--second-bg);
+  color: #fff !important;
+  border: 2px solid #fff;
 }
 
 /* Manual */
 .purple {
-    color: var(--second-bg) !important;
+  color: var(--second-bg) !important;
 }
 
 .yellow {
-    color: var(--first-bg)  !important;
+  color: var(--first-bg) !important;
 }
 
 .white {
-    color: white !important;
+  color: white !important;
 }
 
 .black {
-    color: black !important; 
+  color: black !important;
 }
 
 /* Image inside image */
 .weaponunder {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 .bottom-right {
-    margin-left: -22px;
-    margin-bottom: -55px;
-    transform: rotate(-5deg);
+  margin-left: -22px;
+  margin-bottom: -55px;
+  transform: rotate(-5deg);
 }
 
 .bottom-left {
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
 }
 
 /* Rotation code */
 .rotate {
-    animation: rotation 12s infinite linear;
+  animation: rotation 12s infinite linear;
 }
 
 @keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(359deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 /* timezone section */
 .tz {
-    text-align: center;
+  text-align: center;
 }
-.local, .utc {
-    padding: 25px;
+.local,
+.utc {
+  padding: 25px;
 }
-#local, #utc {
-    font-size: 24px;
+#local,
+#utc {
+  font-size: 24px;
 }
 
 /* Elite Page */
 .slogan {
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    justify-content: space-between;
-    word-break: break-word;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  justify-content: space-between;
+  word-break: break-word;
 }
 
 .mirror {
-    animation: mirror 2s infinite linear;
+  animation: mirror 2s infinite linear;
 }
 @keyframes mirror {
-    from {
-        transform: rotateY(0deg);
-    }
-    to {
-        transform: rotateY(360deg);
-    }
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 
 /* Wild Card Advancement Elite */
-table, th, td {
-    border: 1px solid black;
-    width: 35%;
-    margin: 0 auto;
-    color: white;
+table,
+th,
+td {
+  border: 1px solid black;
+  width: 35%;
+  margin: 0 auto;
+  color: white;
 }
-th, tr:nth-child(even) {
-    background-color: #b6892b;
+th,
+tr:nth-child(even) {
+  background-color: #b6892b;
 }
 tr:nth-child(odd) {
-    background-color: #451c48;
+  background-color: #451c48;
 }
 
 /* Results Page */
-  /* Jump to section */
+/* Jump to section */
 #resultsJump > div::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 #resultsJump > div::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    width: 5px;
-    background-color: var(--purple);
-    background-color: var(--elite-second);
-    background-color: var(--elite-first);
+  border-radius: 10px;
+  width: 5px;
+  background-color: var(--purple);
+  background-color: var(--elite-second);
+  background-color: var(--elite-first);
 }
 #resultsJump > div::-webkit-scrollbar-track {
-    background-color: var(--elite-second);
-    background-color: var(--yellow);
+  background-color: var(--elite-second);
+  background-color: var(--yellow);
 }
 #resultsJump > div {
-    height: 500px;
-    overflow-y: auto;
+  height: 150px;
+  overflow-y: auto;
 }
-  /* Auto color sections */
-#gamemodeResults>:nth-child(odd) {
-    background-color: var(--yellow);
+/* Auto color sections */
+#gamemodeResults > :nth-child(odd) {
+  background-color: var(--yellow);
 }
-#gamemodeResults>:nth-child(odd) h1, 
-#gamemodeResults>:nth-child(odd) h2 {
-    color: var(--purple);
+#gamemodeResults > :nth-child(odd) h1,
+#gamemodeResults > :nth-child(odd) h2 {
+  color: var(--purple);
 }
-#gamemodeResults>:nth-child(even) {
-    background-color: var(--purple);
+#gamemodeResults > :nth-child(even) {
+  background-color: var(--purple);
 }
-#gamemodeResults>:nth-child(even) h1, 
-#gamemodeResults>:nth-child(even) h2 {
-    color: var(--yellow);
+#gamemodeResults > :nth-child(even) h1,
+#gamemodeResults > :nth-child(even) h2 {
+  color: var(--yellow);
 }
-#gamemodeResults>:nth-child(even) p {
-    color: white;
+#gamemodeResults > :nth-child(even) p {
+  color: white;
 }
 
 /* About Page */
-#crew { 
-    background: linear-gradient(0deg, rgba(241,196,57,1) 0%, rgba(110,37,164,1) 100%);
-
+#crew {
+  background: linear-gradient(
+    0deg,
+    rgba(241, 196, 57, 1) 0%,
+    rgba(110, 37, 164, 1) 100%
+  );
 }
-#crew h1, #crew h2, #crew p {
-    color: white;
-    filter: drop-shadow(2px 2px 5px black);
+#crew h1,
+#crew h2,
+#crew p {
+  color: white;
+  filter: drop-shadow(2px 2px 5px black);
 }
 
 .material-symbols-outlined {
-    vertical-align: top;
+  vertical-align: top;
 }
 
 /* Gamemodes Crate Interaction */
 .not-allowed:hover {
-    animation-name: shiver;
-    animation-duration: .075s;
-    animation-direction: alternate;
-    animation-iteration-count: 3;
-    animation-timing-function: linear;
+  animation-name: shiver;
+  animation-duration: 0.075s;
+  animation-direction: alternate;
+  animation-iteration-count: 3;
+  animation-timing-function: linear;
 }
 @keyframes shiver {
-    from {
-        transform: translateX(-5px);
-    }
-    to {
-        transform: translateX(5px);
-    }
+  from {
+    transform: translateX(-5px);
+  }
+  to {
+    transform: translateX(5px);
+  }
 }
 
 .allowed:hover {
-    animation-name: nod;
-    animation-duration: .25s;
-    animation-direction: alternate;
-    animation-iteration-count: 4;
-    animation-timing-function: ease-in-out;
+  animation-name: nod;
+  animation-duration: 0.25s;
+  animation-direction: alternate;
+  animation-iteration-count: 4;
+  animation-timing-function: ease-in-out;
 }
 @keyframes nod {
-    from {
-        transform: translateY(0px);
-    }
-    to {
-        transform: translateY(5px);
-    }
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(5px);
+  }
 }
 
 .restricted {
-    transition: .25s;
+  transition: 0.25s;
 }
 .restricted:hover {
-    transform: scale(.5);
+  transform: scale(0.5);
 }

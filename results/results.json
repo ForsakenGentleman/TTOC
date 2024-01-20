@@ -1,0 +1,365 @@
+[
+  {
+    "year": 2022,
+    "gamemodes": [
+      {
+        "name": "Classic",
+        "playerCount": 16,
+        "bracketsURL": "https://brackethq.com/b/pl83/embed/",
+        "firstPlace": {
+          "winner": "Etxrnity",
+          "prize": "TT Premium + 500 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "Envy",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "NelFusion",
+          "prize": "200 Dimitrium"
+        }
+      },
+      {
+        "name": "Weapons",
+        "bracketsURL": "https://brackethq.com/b/8fv4/embed/",
+        "playerCount": 8,
+        "firstPlace": {
+          "winner": "Etxrnity",
+          "prize": "1100 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "CosmosAblaze",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "StraightPRIDE",
+          "prize": "200 Dimitrium"
+        }
+      },
+      {
+        "name": "Golf",
+        "bracketsURL": "https://brackethq.com/b/tma5/embed/",
+        "playerCount": 16,
+        "firstPlace": {
+          "winner": "CosmosAblaze",
+          "prize": "1100 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "Jellican",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "NelFusion",
+          "prize": "200 Dimitrium"
+        }
+      },
+      {
+        "name": "Gold Rush",
+        "bracketsURL": "https://brackethq.com/b/4rv5/embed/",
+        "playerCount": 10,
+        "firstPlace": {
+          "winner": "imslayer",
+          "prize": "1100 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "Spiros04",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "CosmosAblaze",
+          "prize": "200 Dimitrium"
+        }
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "gamemodes": [
+      {
+        "name": "Classic",
+        "playerCount": 16,
+        "bracketsURL": "https://brackethq.com/b/sx6n/embed/",
+        "firstPlace": {
+          "winner": "imslayer",
+          "prize": "1100 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "Etxrnity",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "Batrizxya",
+          "prize": "200 Dimitrium"
+        }
+      },
+      {
+        "name": "Weapons",
+        "bracketsURL": "https://brackethq.com/b/m4rt/embed/",
+        "playerCount": 16,
+        "firstPlace": {
+          "winner": "imslayer",
+          "prize": "1100 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "Catalyst",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "Amplitude",
+          "prize": "200 Dimitrium"
+        }
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "gamemodes": [
+      {
+        "name": "Classic",
+        "playerCount": 16,
+        "bracketsURL": "https://brackethq.com/b/cz0e/embed/",
+        "firstPlace": {
+          "winner": "imslayer",
+          "prize": "TT Premium + 500 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "NelFusion",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "CosmosAblaze",
+          "prize": "200 Dimitrium"
+        }
+      },
+      {
+        "name": "Weapons",
+        "bracketsURL": "https://brackethq.com/b/j0df/embed/",
+        "playerCount": 32,
+        "firstPlace": {
+          "winner": "Giraffe",
+          "prize": "1100 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "CosmosAblaze",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "imslayer",
+          "prize": "200 Dimitrium"
+        }
+      },
+      {
+        "name": "Golf",
+        "bracketsURL": "https://brackethq.com/b/92xf/embed/",
+        "playerCount": 16,
+        "firstPlace": {
+          "winner": "NelFusion",
+          "prize": "1100 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "CosmosAblaze",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "5aucy",
+          "prize": "200 Dimitrium"
+        }
+      },
+      {
+        "name": "Gold Rush",
+        "bracketsURL": "https://brackethq.com/b/v16f/embed/",
+        "playerCount": 28,
+        "firstPlace": {
+          "winner": "NelFusion",
+          "prize": "1100 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "Jellican",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "CosmosAblaze",
+          "prize": "200 Dimitrium"
+        }
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "gamemodes": [
+      {
+        "name": "Classic",
+        "playerCount": 32,
+        "bracketsURL": "https://brackethq.com/b/v0nd/embed/",
+        "firstPlace": {
+          "winner": "Rage",
+          "prize": "TT Premium + 500 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "Raika_TheDestroyer",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "Faint",
+          "prize": "200 Dimitrium"
+        }
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "gamemodes": [
+      {
+        "name": "Classic",
+        "playerCount": 16,
+        "bracketsURL": "https://brackethq.com/b/1end/embed/",
+        "firstPlace": {
+          "winner": "FreeCandy-Tank",
+          "prize": "TT Premium + 500 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "supervolcano",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "Spiros04",
+          "prize": "200 Dimitrium"
+        }
+      },
+      {
+        "name": "Weapons",
+        "bracketsURL": "https://brackethq.com/b/cznd/embed/",
+        "playerCount": 16,
+        "firstPlace": {
+          "winner": "meemee",
+          "prize": "TT Premium + 500 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "FreeCandy-Tank",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "supervolcano",
+          "prize": "200 Dimitrium"
+        }
+      },
+      {
+        "name": "Golf",
+        "bracketsURL": "https://brackethq.com/b/yznd/embed/",
+        "playerCount": 8,
+        "firstPlace": {
+          "winner": "FreeCandy-Tank",
+          "prize": "500 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "supervolcano",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "",
+          "prize": ""
+        }
+      },
+      {
+        "name": "Target",
+        "bracketsURL": "https://brackethq.com/b/8znd/embed/",
+        "playerCount": 8,
+        "firstPlace": {
+          "winner": "FreeCandy-Tank",
+          "prize": "500 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "meemee",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "",
+          "prize": ""
+        }
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "gamemodes": [
+      {
+        "name": "Classic",
+        "playerCount": 15,
+        "bracketsURL": "https://brackethq.com/b/wcnd/embed/",
+        "firstPlace": {
+          "winner": "5am",
+          "prize": "500 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "george8888",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "Raika_TheDestroyer",
+          "prize": "200 Dimitrium"
+        }
+      },
+      {
+        "name": "Laser",
+        "bracketsURL": "https://brackethq.com/b/sdnd/embed/",
+        "playerCount": 8,
+        "firstPlace": {
+          "winner": "captainahvong",
+          "prize": "200 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "meemee",
+          "prize": "60 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "",
+          "prize": ""
+        }
+      }
+    ]
+  },
+  {
+    "year": "TankTrouble 10th Anniversary",
+    "gamemodes": [
+      {
+        "name": "Candy Tanks",
+        "playerCount": 8,
+        "bracketsURL": "https://brackethq.com/b/tend/embed/",
+        "firstPlace": {
+          "winner": "Rediey",
+          "prize": "TT Premium + 500 Dimitrium"
+        },
+        "secondPlace": {
+          "winner": "bangbangshoota",
+          "prize": "500 Dimitrium"
+        },
+        "thirdPlace": {
+          "winner": "HydroDonkey",
+          "prize": "200 Dimitrium"
+        }
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "gamemodes": [
+      {
+        "name": "Classic",
+        "playerCount": 16,
+        "bracketsURL": "https://brackethq.com/b/78md/embed/",
+        "firstPlace": {
+          "winner": "Dalek-Buster",
+          "prize": ""
+        },
+        "secondPlace": {
+          "winner": "Trabantt",
+          "prize": ""
+        },
+        "thirdPlace": {
+          "winner": "",
+          "prize": ""
+        }
+      }
+    ]
+  }
+]

@@ -1,414 +1,418 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-            TankTrouble Online Competition
-        </title>
-        
-        <link rel="icon" href="media/icons/fav.png">
+  <head>
+    <title>TankTrouble Online Competition</title>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta content="TTOC - TankTrouble Online Competition" property="og:title">
-        <meta content="A competition made to sort out the best of the best TankTrouble players, by setting up a competition with multiple gamemodes to put your TankTrouble skills to the test! Players compete against each other in one-on-one single elimination style in each gamemode. The top three players recieve prizes to match their accomplishment, while the rest of the players and referees recieve an exclusive accessory!" property="og:description">
-        <meta content="TTOC" property="og:site_name">
-        <meta content="https://ttoc.ca/media/special/back.png" property="og:image">
-        <meta name="theme-color" content="#F1C439">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-        <link rel="stylesheet" href="css/style.css">
-        <script defer src="js/dynamic/constants.js"></script>
-    </head>
+    <link rel="icon" href="media/icons/fav.png" />
 
-    <body id="top">
-        <div class="nonstick whiteback row">
-            <div class="col-sm-3">
-                <img class="toppad botpad textpad imgfull" src="media/special/logo_512.png">
-            </div>
-            
-            <div class="col-sm-9 textdivmargin divpad">
-                <h1>
-                    TankTrouble Online Competition
-                </h1>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta content="TTOC - TankTrouble Online Competition" property="og:title" />
+    <meta
+      content="A competition made to sort out the best of the best TankTrouble players, by setting up a competition with multiple gamemodes to put your TankTrouble skills to the test! Players compete against each other in one-on-one single elimination style in each gamemode. The top three players recieve prizes to match their accomplishment, while the rest of the players and referees recieve an exclusive accessory!"
+      property="og:description"
+    />
+    <meta content="TTOC" property="og:site_name" />
+    <meta
+      content="https://ttoc.ca/media/special/back.png"
+      property="og:image"
+    />
+    <meta name="theme-color" content="#F1C439" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
 
-                <h2 class="yellow" id="dynamic-subTitle"></h2>
-            </div>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/dynamic/constants.js"></script>
+  </head>
+
+  <body id="top">
+    <div class="nonstick whiteback row">
+      <div class="col-sm-3">
+        <img
+          class="toppad botpad textpad imgfull"
+          src="media/special/logo_512.png"
+        />
+      </div>
+
+      <div class="col-sm-9 textdivmargin divpad">
+        <h1>TankTrouble Online Competition</h1>
+
+        <h2 class="yellow" id="dynamic-subTitle"></h2>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+      </ul>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="collapsibleNavbar"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/elite">Elite</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gamemodes">Gamemodes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/standards">Standards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/results">Results</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item textdivmargin">
+            <a
+              class="btn rbtn"
+              href="https://forms.gle/EiGSJLnbqokavESn9"
+              target="_blank"
+              >Sign Up</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="main">
+      <div class="yback row">
+        <div class="col-sm-4 textpad textdivmargin divpad">
+          <h1 class="center textpad">
+            Welcome to the TankTrouble Online Competition
+          </h1>
+
+          <p class="justify">
+            A competition made to sort out the best of the best TankTrouble
+            players, by setting up a competition with multiple gamemodes to put
+            your TankTrouble skills to the test! Players compete against each
+            other in one-on-one single elimination style in each gamemode. The
+            top three players recieve prizes to match their accomplishment,
+            while the rest of the players and referees recieve an exclusive
+            accessory!
+          </p>
         </div>
 
-        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-            </ul>
+        <div class="col-sm-8 nopad fill">
+          <img class="fill" style="opacity: 1" src="media/special/back.png" />
+        </div>
+      </div>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <div class="row pback center divpad">
+        <div class="col-sm-8 nopad">
+          <div class="row">
+            <div class="col-sm-4 textdivmargin">
+              <img src="media/prizes/TTPremium.png" />
 
-            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/elite">Elite</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/gamemodes">Gamemodes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/standards">Standards</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/results">Results</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about">About</a>
-                    </li>
-                    <li class="nav-item textdivmargin">
-                        <a class="btn rbtn" href="https://forms.gle/EiGSJLnbqokavESn9" target="_blank">Sign Up</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+              <h2>1st Place</h2>
 
-        <div class="main">
-            <div class="yback row">
-                <div class="col-sm-4 textpad textdivmargin divpad">
-
-                    <h1 class="center textpad">
-                        Welcome to the TankTrouble Online Competition
-                    </h1>
-
-                    <p class="justify">
-                        A competition made to sort out the best of the best TankTrouble players, by setting up a competition with multiple gamemodes to 
-                        put your TankTrouble skills to the test! Players compete against each other in one-on-one single elimination style in each gamemode. 
-                        The top three players recieve prizes to match their accomplishment, while the rest of the players and referees recieve an exclusive
-                        accessory!
-                    </p>
-                </div>
-
-                <div class="col-sm-8 nopad fill">
-                    <img class="fill" style="opacity: 1;" src="media/special/back.png">
-                </div>
+              <p>
+                TT Premium &amp; 500 Dimitrium
+                <br />
+                OR
+                <br />
+                1100 Dimitrium
+                <br />
+                $20 value
+              </p>
             </div>
 
-            <div class="row pback center divpad">
-                <div class="col-sm-8 nopad">
-                    <div class="row">
-                        <div class="col-sm-4 textdivmargin">
-                            <img src="media/prizes/TTPremium.png">
+            <div class="col-sm-4 textdivmargin">
+              <img src="media/prizes/500D.png" />
 
-                            <h2>
-                                1st Place
-                            </h2>
+              <h2>2nd Place</h2>
 
-                            <p>
-                                TT Premium &amp; 500 Dimitrium
-                                <br>
-                                OR
-                                <br>
-                                1100 Dimitrium
-                                <br>
-                                $20 value
-                            </p>
-                        </div>
-                        
-                        <div class="col-sm-4 textdivmargin">
-                            <img src="media/prizes/500D.png">
-                            
-                            <h2>
-                                2nd Place
-                            </h2>
-
-                            <p>
-                                500 Dimitrium
-                                <br>
-                                $10 value
-                            </p>
-                        </div>
-
-                        <div class="col-sm-4 textdivmargin">
-                            <img src="media/prizes/200D.png">
-                            
-                            <h2>
-                                3rd Place
-                            </h2>
-        
-                            <p>
-                                200 Dimitrium
-                                <br>
-                                $5 value
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col"></div>
-                        
-                        <div class="col-sm-4 textdivmargin">
-                            <img src="media/prizes/TTOCWreath.png">
-
-                            <h2>
-                                Top three
-                            </h2>
-
-                            <p>
-                                Gold Wreath Accessory
-                            </p>
-                        </div> 
-                        
-                        <div class="col"></div>
-
-                        <div class="col-sm-4 textdivmargin">
-                            <img src="media/prizes/TTOC23.png" width="800">
-
-                            <h2>
-                                Everyone
-                            </h2>
-
-                            <p>
-                                Yearly Participation Accessory
-                            </p>
-                        </div> 
-                        
-                        <div class="col"></div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 textdivmargin textpad divpad">
-                    <h1 class="center">
-                        Prizes for all
-                    </h1>
-
-                    <p class="justify">
-                        Thanks to our very generous competition sponsor, Dimitri's Emporium, we're able to provide our participants with special prizes,
-                        including two exclusive accessories that can only be acquired through the competition!
-                    </p>
-                </div>
+              <p>
+                500 Dimitrium
+                <br />
+                $10 value
+              </p>
             </div>
 
-            <div class="yback nopad textdivmargin textpad toppad">
-                <h1 class="center">
-                    Interested in joining?
-                </h1>
+            <div class="col-sm-4 textdivmargin">
+              <img src="media/prizes/200D.png" />
 
-                <h2 class="center">
-                    Prepare yourself to sign up:
-                </h2>
+              <h2>3rd Place</h2>
 
-                <div class="row nopad">
-                    <div class="col-sm-4 textdivmargin textpad divpad">
-                        <h2 class="center">
-                            Read the Gamemode Rules <a href="gamemodes"><span class="material-symbols-outlined">arrow_circle_right</span></a>
-                        </h2>
+              <p>
+                200 Dimitrium
+                <br />
+                $5 value
+              </p>
+            </div>
+          </div>
 
-                        <p class="center">
-                            You should be familiar with the gamemode rules.
-                        </p>
-                    </div>
+          <div class="row">
+            <div class="col"></div>
 
-                    <div class="col-sm-4 textdivmargin textpad divpad">
-                        <h2 class="center">
-                            Read the Standards <a href="standards"><span class="material-symbols-outlined">arrow_circle_right</span></a>
-                        </h2>
-                        
-                        <p class="center">
-                            Make sure to follow the all Standards.
-                        </p>
-                    </div>
-                    
-                    <div class="col-sm-4 textdivmargin textpad divpad">
-                        <h2 class="center">
-                            Done? Sign up now!
-                        </h2>
-                        
-                        <p class="center">
-                            Read the application carefully.
-                        </p>
-                    </div>
-                </div>
+            <div class="col-sm-4 textdivmargin">
+              <img src="media/prizes/TTOCWreath.png" />
 
-                <p class="center botpad">
-                    <a class="btn fbtn" href="https://forms.gle/EiGSJLnbqokavESn9" target="_blank">Sign Up</a>
-                </p>
+              <h2>Top three</h2>
+
+              <p>Gold Wreath Accessory</p>
             </div>
 
-            <div class="pback divpad">
-                <h1 class="center">
-                    Winners of the Classic Gamemode
-                </h1>
+            <div class="col"></div>
 
-                <div class="row center">
-                    <div class="col-sm-3 divpad">
-                        <img src="media/tanks/Etxrnity.png">
-                        
-                        <h2 class="center">
-                            Etxrnity
-                        </h2>
+            <div class="col-sm-4 textdivmargin">
+              <img src="media/prizes/TTOC23.png" width="800" />
 
-                        <p class="center">
-                            2023, 2022
-                        </p>
-                    </div>
+              <h2>Everyone</h2>
 
-                    <div class="col-sm-3 divpad">
-                        <img src="media/tanks/Renzore.png">
-                        
-                        <h2 class="center">
-                            imslayer
-                        </h2>
-
-                        <p class="center">
-                            2021, 2020
-                        </p>
-                    </div>
-
-                    <div class="col-sm-3 divpad">
-                        <img src="media/tanks/Rage.png">
-                        
-                        <h2 class="center">
-                            Rage
-                        </h2>
-
-                        <p class="center">
-                            2019
-                        </p>
-                    </div>
-
-                    <div class="col-sm-3 divpad">
-                        <img src="media/tanks/FreeCandy-Tank.png">
-                        
-                        <h2 class="center">
-                            FreeCandy-Tank
-                        </h2>
-
-                        <p class="center">
-                            2018
-                        </p>
-                    </div>
-                </div>
-
-                <p class="center textdivmargin">
-                    <a class="btn btn-dark" role="button" href="/results">See more results</a>
-                </p>
+              <p>Yearly Participation Accessory</p>
             </div>
+
+            <div class="col"></div>
+          </div>
         </div>
 
-        <!-- Footer -->
-        <div class="foot whiteback">
-            <div class="row nopad">
-                <div class="col-sm-2 center nopad textpad divpad textdivmargin">
-                    <h2 class="center">
-                        Created by
-                    </h2>
+        <div class="col-sm-4 textdivmargin textpad divpad">
+          <h1 class="center">Prizes for all</h1>
 
-                    <img src="media/tanks/5am.png">
-
-                    <h2 class="center">
-                        5am
-                    </h2>
-                </div>
-
-                <div class="col-sm-4 nopad divpad textdivmargin">
-                    <h2 class="center">
-                        Sponsored by the Developers of TankTrouble
-                    </h2>
-
-                    <div class="row center nopad">
-                        <div class="col-sm-6 nopad">
-                            <img src="media/tanks/Purup.png">
-        
-                            <h2 class="center ttfont">
-                                purup
-                            </h2>
-                    
-                            <p class="center black ttfont">
-                                Mads Purup
-                            </p>
-                        </div>
-                        
-                        <div class="col-sm-6 nopad">
-                            <img src="media/tanks/bbc.png">
-        
-                            <h2 class="center ttfont">
-                                bbc
-                            </h2>
-
-                            <p class="center black ttfont">
-                                Brian Bunch Christensen
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 textdivmargin nopad divpad">
-                    <p class="center">
-                        <a href="#top" class="btn fbtn">
-                            Back to top
-                        </a>
-                    </p>
-
-                    <p class="center">
-                        <a class="btn btn-light fbtn" role="button" href="https://tanktrouble.com" target="_blank">
-                            Play TankTrouble Online
-                        </a>
-                    </p>
-                
-                    <p class="center">
-                        <a class="btn btn-light fbtn" role="button" href="https://tanktrouble.com/forum" target="_blank">
-                            Visit the Forum
-                        </a>
-                    </p>
-
-                    <h1 class="center">
-                        Jump to Page
-                    </h1>
-
-                    <h2 class="center textdivmargin">
-                        <a href="/">
-                            Home
-                        </a>
-                        <a href="/gamemodes">
-                            Gamemodes
-                        </a>
-                        <a href="/standards">
-                            Standards
-                        </a>
-                        <a href="/results">
-                            Results
-                        </a>
-                        <a href="/about">
-                            About
-                        </a>
-                        <a class="btn fbtn" href="https://forms.gle/EiGSJLnbqokavESn9" target="_blank">Sign Up</a>
-                    </h2>
-                </div>
-            </div>
-
-            <!-- Footer ending -->
-            <div class="row center blackback textdivmargin">
-                <div class="col-sm-4 divpad textdivmargin">
-                    <p class="textdivmargin">
-                        <a href="https://getbootstrap.com" target="_blank">
-                            Made with Bootstrap <span class="material-symbols-outlined">arrow_circle_right</span>
-                        </a>
-                    </p>
-                </div>
-    
-                <div class="col-sm-4 divpad textdivmargin">
-                    <p class="ttfont yellow center textdivmargin" id="dynamic-footer"></p>
-                </div>
-                
-                <div class="col-sm-4 divpad">
-                    <p class="textdivmargin">
-                        <a href="https://forms.gle/x4c6cqooDZcPKEs97" target="_blank">
-                            Contact Us <span class="material-symbols-outlined">arrow_circle_right</span>
-                        </a>
-                    </p>
-                </div>
-            </div>
+          <p class="justify">
+            Thanks to our very generous competition sponsor, Dimitri's Emporium,
+            we're able to provide our participants with special prizes,
+            including two exclusive accessories that can only be acquired
+            through the competition!
+          </p>
         </div>
-    </body>
+      </div>
+
+      <div class="yback nopad textdivmargin textpad toppad">
+        <h1 class="center">Interested in joining?</h1>
+
+        <h2 class="center">Prepare yourself to sign up:</h2>
+
+        <div class="row nopad">
+          <div class="col-sm-4 textdivmargin textpad divpad">
+            <h2 class="center">
+              Read the Gamemode Rules
+              <a href="gamemodes"
+                ><span class="material-symbols-outlined"
+                  >arrow_circle_right</span
+                ></a
+              >
+            </h2>
+
+            <p class="center">
+              You should be familiar with the gamemode rules.
+            </p>
+          </div>
+
+          <div class="col-sm-4 textdivmargin textpad divpad">
+            <h2 class="center">
+              Read the Standards
+              <a href="standards"
+                ><span class="material-symbols-outlined"
+                  >arrow_circle_right</span
+                ></a
+              >
+            </h2>
+
+            <p class="center">Make sure to follow the all Standards.</p>
+          </div>
+
+          <div class="col-sm-4 textdivmargin textpad divpad">
+            <h2 class="center">Done? Sign up now!</h2>
+
+            <p class="center">Read the application carefully.</p>
+          </div>
+        </div>
+
+        <p class="center botpad">
+          <a
+            class="btn fbtn"
+            href="https://forms.gle/EiGSJLnbqokavESn9"
+            target="_blank"
+            >Sign Up</a
+          >
+        </p>
+      </div>
+
+      <div class="pback divpad">
+        <h1 class="center">Winners of the Classic Gamemode</h1>
+
+        <div class="row center">
+          <div class="col-sm-3 divpad">
+            <img src="media/tanks/Etxrnity.png" />
+
+            <h2 class="center">Etxrnity</h2>
+
+            <p class="center">2023, 2022</p>
+          </div>
+
+          <div class="col-sm-3 divpad">
+            <img src="media/tanks/imslayer.png" />
+
+            <h2 class="center">imslayer</h2>
+
+            <p class="center">2021, 2020</p>
+          </div>
+
+          <div class="col-sm-3 divpad">
+            <img src="media/tanks/Rage.png" />
+
+            <h2 class="center">Rage</h2>
+
+            <p class="center">2019</p>
+          </div>
+
+          <div class="col-sm-3 divpad">
+            <img src="media/tanks/FreeCandy-Tank.png" />
+
+            <h2 class="center">FreeCandy-Tank</h2>
+
+            <p class="center">2018</p>
+          </div>
+        </div>
+
+        <p class="center textdivmargin">
+          <a class="btn btn-dark" role="button" href="/results"
+            >See more results</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="foot whiteback">
+      <div class="row nopad">
+        <div class="col-sm-2 center nopad textpad divpad textdivmargin">
+          <h2 class="center">Created by</h2>
+
+          <img src="media/tanks/5am.png" />
+
+          <h2 class="center">5am</h2>
+        </div>
+
+        <div class="col-sm-4 nopad divpad textdivmargin">
+          <h2 class="center">Sponsored by the Developers of TankTrouble</h2>
+
+          <div class="row center nopad">
+            <div class="col-sm-6 nopad">
+              <img src="media/tanks/Purup.png" />
+
+              <h2 class="center ttfont">purup</h2>
+
+              <p class="center black ttfont">Mads Purup</p>
+            </div>
+
+            <div class="col-sm-6 nopad">
+              <img src="media/tanks/bbc.png" />
+
+              <h2 class="center ttfont">bbc</h2>
+
+              <p class="center black ttfont">Brian Bunch Christensen</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 textdivmargin nopad divpad">
+          <p class="center">
+            <a href="#top" class="btn fbtn"> Back to top </a>
+          </p>
+
+          <p class="center">
+            <a
+              class="btn btn-light fbtn"
+              role="button"
+              href="https://tanktrouble.com"
+              target="_blank"
+            >
+              Play TankTrouble Online
+            </a>
+          </p>
+
+          <p class="center">
+            <a
+              class="btn btn-light fbtn"
+              role="button"
+              href="https://tanktrouble.com/forum"
+              target="_blank"
+            >
+              Visit the Forum
+            </a>
+          </p>
+
+          <h1 class="center">Jump to Page</h1>
+
+          <h2 class="center textdivmargin">
+            <a href="/"> Home </a>
+            <a href="/gamemodes"> Gamemodes </a>
+            <a href="/standards"> Standards </a>
+            <a href="/results"> Results </a>
+            <a href="/about"> About </a>
+            <a
+              class="btn fbtn"
+              href="https://forms.gle/EiGSJLnbqokavESn9"
+              target="_blank"
+              >Sign Up</a
+            >
+          </h2>
+        </div>
+      </div>
+
+      <!-- Footer ending -->
+      <div class="row center blackback textdivmargin">
+        <div class="col-sm-4 divpad textdivmargin">
+          <p class="textdivmargin">
+            <a href="https://getbootstrap.com" target="_blank">
+              Made with Bootstrap
+              <span class="material-symbols-outlined">arrow_circle_right</span>
+            </a>
+          </p>
+        </div>
+
+        <div class="col-sm-4 divpad textdivmargin">
+          <p class="ttfont yellow center textdivmargin" id="dynamic-footer"></p>
+        </div>
+
+        <div class="col-sm-4 divpad">
+          <p class="textdivmargin">
+            <a href="https://forms.gle/x4c6cqooDZcPKEs97" target="_blank">
+              Contact Us
+              <span class="material-symbols-outlined">arrow_circle_right</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
